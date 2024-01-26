@@ -360,14 +360,11 @@ body {
 }
 
 
-
-
-
 /*-----------------------------------*\
   #SERVICE
 \*-----------------------------------*/
 
- .service { background-color: var(--white-2); }
+.service { background-color: var(--white-2); }
 
 .service .section-text { margin-block: 5px 35px; }
 
@@ -380,6 +377,11 @@ body {
   box-shadow: var(--shadow-1);
   transition: var(--transition-2);
 }
+
+.service-card .card-text.left-align {
+  text-align: left;
+}
+
 
 .service-card:is(:hover, :focus-within) { transform: translateY(-10px); }
 
