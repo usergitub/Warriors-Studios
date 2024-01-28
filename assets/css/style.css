@@ -559,16 +559,21 @@ body {
 \*----------------------------------- */
 
 .section.equipe {
+   /* width: 1140px; */
+  height: auto;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; /* Centrez les éléments horizontalement et verticalement */
+  justify-content: center;
 }
+
 
 .div {
   gap: 25px;
   display: flex;
   justify-content: center;
+  /* background: #F4F8FF; */
 }
 @media (max-width: 991px) {
   .div {
@@ -602,41 +607,19 @@ body {
   object-position: center;
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px;
-  box-sizing: border-box;
-  background: rgba(0, 0, 0, 0.5); /* Fond semi-transparent */
-  color: white;
-  opacity: 0; /* Masquer la superposition au départ */
-  transition: opacity 0.3s ease-in-out;
-}
+/* ... autres règles CSS ... */
 
-.img-container:hover .overlay {
-  opacity: 1; /* Afficher la superposition au survol */
+#kacou-ange {
+  background: #F4F8FF; /* Couleur d'arrière-plan souhaitée */
 }
-
-.overlay-text {
-  font-size: 20px;
-  font-weight: bold;
+#manuel-tite {
+  background: #F4F8FF; /* Couleur d'arrière-plan souhaitée */
 }
-
-.social-icons {
-  display: flex;
-  gap: 22px;
+#dojouka-rebecca {
+  background: #F4F8FF; /* Couleur d'arrière-plan souhaitée */
 }
-
-/* Ajoutez les styles des icônes de réseaux sociaux (c'est un exemple, assurez-vous d'avoir les classes d'icônes correctes) */
-ion-icon {
-  font-size: 36px;
+#kouame-eldad {
+  background: #F4F8FF; /* Couleur d'arrière-plan souhaitée */
 }
 
 
@@ -709,6 +692,7 @@ ion-icon {
   margin-top: 41px;
   flex-direction: column;
   padding: 15px 21px;
+  width :477px;
 }
 @media (max-width: 991px) {
   .div-6 {
